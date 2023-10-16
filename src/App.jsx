@@ -1,5 +1,6 @@
 
 import styles from './App.module.css';
+import Hero from './cpmponents/Hero/Hero';
 import Navbar from './cpmponents/Navbar/Navbar';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <div className={styles.App}>
       
       <Navbar />
+      <Hero />
+     
     </div>
   
   )
